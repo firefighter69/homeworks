@@ -1,27 +1,20 @@
-print('hello world')
-name = str('hello world')
-print(len(name))
+#1
+my_string = input()
+def findLen(my_string):
+    counter = 0
+    for i in my_string:
+        counter += 1
+    return counter
+print(findLen(my_string))
 
-first = 22
-second = 33
-summa = (first+second)
-diff = (first-second)
-print(summa, diff)
+#2
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(' ', ''))
 
-first = 45
-second = 56
-third = 98
-import statistics
-data = [first, second, third]
-print(statistics.mean(data))
+#3
+my_string
+print(my_string[0])
+print(my_string[-1])
+#############
 
-first_string = str('Понедельник,')
-second_string = str('Вторник')
-print(first_string, second_string)
-
-a = 45
-b = 36
-c = 24
-f = (a*b)+(a*c)
-summa = (a*b)+(a*c)**3/2
-print(summa)
